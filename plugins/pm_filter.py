@@ -686,8 +686,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNri
+            [[
+InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNri
         [[
 reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
